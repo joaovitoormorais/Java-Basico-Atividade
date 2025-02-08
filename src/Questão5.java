@@ -5,7 +5,7 @@ public class Questão5 {
     public static void main(String[] args) {
 
     Scanner scan = new Scanner(System.in);
-    
+
         double valorEmprestimo, taxaJuros, valorTotal, valorParcela;
         int qtdMeses;
 
