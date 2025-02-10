@@ -14,10 +14,10 @@ public class Questão9 {
         System.out.println("Digite a largura da parede (em metros):");
         largura = scan.nextInt();
 
-        int areaParede = altura * largura;
+        int areaTotal = altura * largura;
 
-        qtdTinta = areaParede / 2;
+        qtdTinta = areaTotal / 2;
 
-        System.out.println("A quantidade de tinta necessária para pintar a parede é de:" + qtdTinta);
+        System.out.println("A quantidade de tinta a ser pintada (em litros) é de:" + qtdTinta);
     }
 }
